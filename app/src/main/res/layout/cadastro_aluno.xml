@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E68C8C"
+    android:backgroundTint="#CD6F6F">
+
+    <TextView
+        android:id="@+id/nome"
+        android:layout_width="231dp"
+        android:layout_height="36dp"
+        android:text="INSIRA SEU NOME"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <EditText
+        android:id="@+id/idade"
+        android:layout_width="232dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="INSIRA SUA IDADE"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <EditText
+        android:id="@+id/data_nasc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date"
+        android:text="INSIRA SUA DATA DE NASCIMENTO"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="167dp" />
+
+    <TextView
+        android:id="@+id/turma"
+        android:layout_width="235dp"
+        android:layout_height="43dp"
+        android:shadowColor="#100C0C"
+        android:text="TURMA"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="234dp" />
+
+    <Button
+        android:id="@+id/cadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CADASTRAR"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="317dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
