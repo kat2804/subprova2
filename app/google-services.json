@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "805601005844",
+    "project_id": "prova2sub",
+    "storage_bucket": "prova2sub.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805601005844:android:20ef72e5cfcdab1de27201",
+        "android_client_info": {
+          "package_name": "br.unigran.prova2sub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "805601005844-9ld35n76qchq2m7qnde5i63llos2foss.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrazHt5-twlA9sEm-428zd81El0Fcf7EI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "805601005844-9ld35n76qchq2m7qnde5i63llos2foss.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -3,11 +3,12 @@ package br.unigran.prova2sub;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.EditText;
+import android.widget.TextView;
 
 public class cadastroAluno  extends AppCompatActivity{
-    private EditText nome;
+    private TextView nome;
     private EditText idade;
-    private EditText turma;
+    private TextView Turma;
     private EditText dataNasc;
 
     @Override
@@ -17,7 +18,7 @@ public class cadastroAluno  extends AppCompatActivity{
 
         nome = findViewById(R.id.nome);
         idade = findViewById(R.id.idade);
-        turma = findViewById(R.id.turma);
+        Turma = findViewById(R.id.turma);
         dataNasc = findViewById(R.id.data_nasc);
     }
 
